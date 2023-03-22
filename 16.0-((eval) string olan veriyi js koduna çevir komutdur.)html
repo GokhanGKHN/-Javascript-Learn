@@ -14,7 +14,7 @@
     var testsayı        = 10;
     var testıkınıcsayı  = 40;
 
-    var sonuc           =eval("testsayı + testıkınıcsayı"); //normalde string olan ifadeyi eval() metodu ile js koduna çevirerek çalıştırdı. 
+    var sonuc           =eval("testsayı+testıkınıcsayı"); //normalde string olan ifadeyi eval() metodu ile js koduna çevirerek çalıştırdı. 
 
     document.write(sonuc);
 </script>
