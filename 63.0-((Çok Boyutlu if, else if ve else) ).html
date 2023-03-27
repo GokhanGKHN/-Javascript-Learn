@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+   <script type="text/javascript" lang="javascript">
+
+    var saat ="1";
+    var veri =typeof saat;
+
+    if(saat>=0 && saat<=5 ){
+        if(saat==0 && veri=="number"){
+             document.write("Günaydın. Saat şuanda 01.00" ); //Çok boyutlu if=  if bloğunun içine if, else if ve else koyuyor. 
+        }else if (saat==1 && veri=="number"){
+            document.write("Günaydın. Saat şuanda  02.00" ); 
+        }else if (saat==2 && veri=="number"){
+            document.write("Günaydın. Saat şuanda  03.00" ); 
+        }else if (saat==3 && veri=="number"){
+            document.write("Günaydın. Saat şuanda "+saat ); 
+        }else if (saat==4 && veri=="number"){
+            document.write("Günaydın. Saat şuanda "+saat ); 
+        }else if (saat==5 && veri=="number"){
+            document.write("Günaydın. Saat şuanda "+saat ); 
+        }else{
+            document.write("Günaydın ama işlem hatalı");
+        }
+    }else if(saat>5 && saat<=10){
+        document.write("b");
+    }else{
+        document.write("c");
+    }
+  
+   </script> 
+</body>
+</html>
